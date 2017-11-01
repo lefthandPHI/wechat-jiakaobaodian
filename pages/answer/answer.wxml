@@ -1,0 +1,18 @@
+<view>
+
+  <view class='item question'>{{info.question}}</view>
+  <image class='image item' wx:if="{{info.url}}" src='{{info.url}}' mode='aspectFit'></image>
+  <view class='item'>{{info.explains}}</view>
+
+  <view class='answer item'>
+    <view wx:if="{{info.item1}}">1.{{info.item1}}</view>
+    <view wx:if="{{info.item2}}">2.{{info.item2}}</view>
+    <view wx:if="{{info.item3}}">3.{{info.item3}}</view>
+    <view wx:if="{{info.item4}}">4.{{info.item4}}</view>
+  </view>
+
+  <view class='result item'>
+  <text wx:if="{{info.item3}}">答案:{{info.answer}}</text>
+  <text wx:if="{{!info.item3}}">答案:{{info.answer=="1"?"正确":"错误"}}</text>
+  </view>
+</view>

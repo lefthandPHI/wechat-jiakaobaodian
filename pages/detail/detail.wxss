@@ -1,0 +1,35 @@
+/* pages/detail/detail.wxss */
+
+.detail_type {
+  display: flex;
+  justify-content: space-around;
+}
+
+.detail_type_button {
+  flex: 1;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  border: 2px solid white;
+  box-sizing: border-box;
+  background: #4f94cd;
+  color: white;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+}
+
+.detail_container {
+  padding: 0 20rpx;
+  box-sizing: border-box;
+}
+
+.detail_item {
+  padding: 15rpx 0;
+  border-bottom: 1px solid #c2c2c2;
+  box-sizing: border-box;
+}
+
+.orderAction, .randActive {
+  background: #104e8b;
+  color: #e3e3e3;
+}

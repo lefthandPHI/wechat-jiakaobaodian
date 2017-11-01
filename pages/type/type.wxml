@@ -1,0 +1,7 @@
+<view class="type_container">
+  <view class="type_item" wx:for="{{['c1','c2','a1','a2','b1','b2']}}" data-type="{{item}}">
+    <navigator url='/pages/detail/detail?subject={{item}}&type={{type}}'>
+      {{item}}
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+
+<view class="home_container">
+  <view class='home_item'>
+    <navigator url='/pages/type/type?type=1'>
+      科目1
+    </navigator>
+  </view>
+  <view class='home_item'>
+    <navigator url='/pages/type/type?type=4'>
+      科目4
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<view>
+  <view class='detail_type'>
+    <view class='detail_type_button {{randActive}}' data-type="rand" bindtap='chooseType'>随机题目</view>
+    <view class='detail_type_button {{orderActive}}' data-type="order" bindtap='chooseType'>全部题目</view>
+  </view>
+
+  <view class='detail_container'>
+    <view class='detail_item' wx:for="{{datas}}">
+      <navigator url="/pages/answer/answer" bindtap='chooseQuestion' data-info='{{item}}'>{{item.question}}</navigator>
+    </view>
+  </view>
+
+</view>

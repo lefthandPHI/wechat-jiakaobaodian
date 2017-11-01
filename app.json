@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/type/type",
+    "pages/detail/detail",
+    "pages/answer/answer"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#4F94CD",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "驾考宝典",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  }
+}
